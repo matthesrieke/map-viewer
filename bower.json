@@ -1,0 +1,30 @@
+{
+  "name": "map-viewer",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "matthesrieke <m.rieke@52north.org>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.5.0",
+    "angular-aria": "~1.5.0",
+    "angular-animate": "~1.5.0",
+    "angular-messages": "~1.5.0",
+    "angular-material": "1.1.4",
+    "angular-route": "~1.5.0",
+    "angular-sanitize": "~1.5.2",
+    "ui-leaflet": "^2.0.0",
+    "jquery": "^3.2.1",
+    "plotlyjs": "plotly#^1.18.1",
+    "d3": "^4.9.1"
+  }
+}
