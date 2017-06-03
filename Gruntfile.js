@@ -4,7 +4,7 @@ module.exports = function(grunt) {
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
         name: '<%= pkg.name %>.<%= pkg.version %>',
-        context: '/iec/manager/',
+        context: '/mapviewer/',
         lib_scripts: [
             'src/bower_components/jquery/dist/jquery.js',
             'src/bower_components/angular/angular.js',
@@ -34,7 +34,7 @@ module.exports = function(grunt) {
         ],
         copy_files: [
             'templates/**/*.html',
-            'img/**/*',
+            'images/**/*',
             'doc/**/*',
             '*.json'
         ],
